@@ -49,7 +49,7 @@ class JMAnimRegister
 		behaviour = new DayzPlayerItemBehaviorCfg;
         animReg.OnRegisterLauncher( pType, behaviour );
 
-        OnBoneRemapping( pType );
+        animReg.OnBoneRemapping( pType );
 
         return animReg;
     }
