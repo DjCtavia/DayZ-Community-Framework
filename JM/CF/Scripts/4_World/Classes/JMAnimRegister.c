@@ -1,6 +1,6 @@
 class JMAnimRegister
 {
-    private JMAnimRegister()
+    private void JMAnimRegister()
     {
 
     }
